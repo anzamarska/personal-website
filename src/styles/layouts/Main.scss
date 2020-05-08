@@ -1,9 +1,56 @@
+.main {
+  max-width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .section {
-  display: block;
-  width: max-content;
+  //   display: block;
+  //   width: max-content;
+  position: relative;
+  justify-content: space-around;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .sectionTitle {
-  float: left;
-  font-family: "Montserrat Subrayada", sans-serif;
+  //   position: relative;
+  //   float: left;
+  //   font-family: "Montserrat Subrayada", sans-serif;
+  background-color: pink;
+
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  text-align: center;
 }
+
+// .content {
+//   position: relative;
+//   background-color: blue;
+// }
+
+//tutaj od góry to moje
+
+// .section {
+//     //   display: block;
+//     //   width: max-content;
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 10px;
+//     grid-auto-rows: minmax(100px, auto);
+//   }
+
+//   .sectionTitle {
+//     grid-column: 1;
+//     float: left;
+//     font-family: "Montserrat Subrayada", sans-serif;
+//   }
+
+//   .content {
+//     grid-column: 1/4;
+//   }
