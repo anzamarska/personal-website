@@ -20,6 +20,7 @@ body {
   font-family: $font-text;
   font-size: ($base-size * 1.3);
   overflow-y: scroll;
+  max-width: 100vw;
 }
 
 // html {

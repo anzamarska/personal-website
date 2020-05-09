@@ -3,7 +3,7 @@ import "../../styles/layouts/Main.scss";
 
 const About = (props) => (
   <>
-    <section className="section">
+    <section className="section" id="about">
       <p className="sectionTitle">about me</p>
       <div className="content">
         <p>
