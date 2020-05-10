@@ -3,41 +3,81 @@
 
 .section {
   max-width: max-content;
-  background-color: yellowgreen;
-  margin: 10px auto;
+  // background-color: yellowgreen;
+  margin: 0rem 8rem 0rem 5rem;
   position: relative;
-}
-
-.section::after {
-  content: "";
-  display: block;
-  padding-top: 14px;
-  width: 15rem;
-  margin: 0 auto;
-  margin-bottom: 0px;
-  border-bottom: 1px solid black;
-  margin-bottom: 28px;
 }
 
 .sectionTitle {
   display: inline-block;
-  background-color: pink;
+  // background-color: pink;
   width: 16em;
   position: relative;
   vertical-align: top;
   font-family: "Montserrat Subrayada", sans-serif;
 }
 
+.main {
+  padding-top: 10vh;
+}
 .content {
   display: inline-block;
-  background-color: darkcyan;
-  width: 40em;
+  // background-color: darkcyan;
+  width: 46em;
   position: relative;
   height: auto;
   //   border-bottom: 1px solid black;
   //   height: 100px;
 }
 
+.section {
+  padding-top: 12vh;
+}
+
+.content::after {
+  content: "";
+  display: block;
+  padding-top: 14px;
+  width: 18rem;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  border-bottom: 1px solid black;
+  margin-bottom: 28px;
+}
+
+.contentTitle {
+  font-family: "Cardo", serif;
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+.projectDiv {
+  display: inline-block;
+  min-height: 100px;
+  width: 16rem;
+  margin: 10px;
+  box-shadow: 0 3px 10px rgba(214, 214, 214, 1);
+  padding: 10px;
+  vertical-align: top;
+}
+
+.gitHubIcon {
+  height: 36px;
+  display: inline;
+}
+
+.gitText {
+  letter-spacing: 9.75px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.demoDiv {
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
 // .content {
 //   position: relative;
 //   background-color: blue;

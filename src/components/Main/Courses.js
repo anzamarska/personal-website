@@ -3,27 +3,29 @@ import "../../styles/layouts/Main.scss";
 
 const Courses = (props) => (
   <>
-    <div className="main">
-      <section className="section" id="courses">
-        <p className="sectionTitle">courses</p>
-        <div className="content">
-          <p>
-            kursy Czekolada – wyrób cukierniczy sporządzany z miazgi kakaowej,
-            tłuszczu kakaowego (masło kakaowe) lub innego tłuszczu roślinnego,
-            środka słodzącego i innych dodatków, a w przypadku czekolady
-            mlecznej także z mleka[1]. Według dyrektywy 2000/36/WE czekoladę
-            definiuje się jako wyrób otrzymywany z wyrobów kakaowych i cukrów,
-            który zawiera nie mniej niż 35% suchej masy kakaowej ogółem, w tym
-            nie mniej niż 14% suchej odtłuszczonej masy kakaowej[2]. W celu
-            uzyskania miazgi kakaowej i tłuszczu kakaowego, ziarna kakaowca
-            poddaje się fermentacji, suszy i rozciera. Kolejnym etapem produkcji
-            jest konszowanie[1]. Światowy Dzień Gorzkiej Czekolady ( Goryczki )
-            obchodzony jest 7 lipca[3]. W Polsce świętowany jest Dzień Czekolady
-            wypadający 12 kwietnia[4].
-          </p>
-        </div>
-      </section>
-    </div>
+    <section className="section" id="courses">
+      <p className="sectionTitle">courses</p>
+      <div className="content">
+        <p className="gitText">ACADEMIC EDUCATION</p>
+        <ul>
+          Jagiellonian University in Cracov Faculty of Philosophy, Masters of
+          Science in Clinical Psychology Graduated in 2019{" "}
+        </ul>
+        <p className="gitText">Conference that I take part in</p>
+        <ul>Lambda Days 13-14 FEBRUARY 2020 </ul>
+        <p className="gitText">Workshops</p>
+        <ul>An Ounce of Elixir - 12 FEBRUARY 2020</ul>
+
+        <p className="gitText">courses</p>
+        <ul>
+          freecodecamp: Responsive Web Design Certification 12 JANUARY - 5
+          FEBRUARY 2020
+        </ul>
+
+        {/* member, Psychodietics Section of the applied Psychology Departmen */}
+        {/* member, AZS UJ Swimming Team */}
+      </div>
+    </section>
   </>
 );
 

@@ -1,20 +1,24 @@
 @import "../global.scss";
 
 .header {
-  margin-top: 5vh;
-  position: relative;
-  //   float: right;
+  padding: 0 2vw;
+  position: fixed;
   box-sizing: border-box;
-  height: 18vh;
-  width: 98vw;
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(214, 214, 214, 0.25);
+  z-index: 999;
 }
 
 .button {
   float: right;
   border: none;
   background-color: transparent;
-  margin: 0 1.8vw;
+  margin: 0px 0.8vw;
   text-transform: uppercase;
+  letter-spacing: 9.75px;
+  font-size: 13px;
+  height: 12vh;
 }
 
 button:hover {
