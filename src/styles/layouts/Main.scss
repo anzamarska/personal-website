@@ -82,6 +82,12 @@
   height: 3rem;
 }
 
+.gitHubIcon:hover {
+  filter: brightness(1.1);
+  scale: 1.1;
+  // box-shadow: 6px 7px 3px 0px #0000007a;
+}
+
 .gitText {
   letter-spacing: 9.75px;
   font-size: 13px;
