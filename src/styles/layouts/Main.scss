@@ -62,7 +62,20 @@
 }
 
 .skillsIcon {
-  height: 10rem;
+  height: 4rem;
+}
+.skillsDiv {
+  margin: 3rem 0;
+}
+
+.languages {
+  list-style: disclosure-closed;
+  list-style-position: inside;
+}
+.iconDiv {
+  display: inline-block;
+  margin: 2rem;
+  height: 2rem;
 }
 
 .gitHubIcon {
