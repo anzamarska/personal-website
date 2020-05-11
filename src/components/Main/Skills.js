@@ -7,6 +7,9 @@ const Skills = (props) => (
       <p className="sectionTitle">skills</p>
       <div className="content">
         <p className="gitText">CORE SKILLS </p>
+        <div className="skillsIcon">
+          <i class="fa fa-html5" aria-hidden="true"></i>
+        </div>
         <ul>Basic knowledge of Python</ul>
         <ul>Knowledge of IBM SPSS and STATISTICA </ul>
         <ul>Critical thinking and complex problem-solving skills</ul>

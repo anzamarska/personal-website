@@ -11,6 +11,9 @@ const Courses = (props) => (
           Jagiellonian University in Cracov Faculty of Philosophy, Masters of
           Science in Clinical Psychology Graduated in 2019{" "}
         </ul>
+        <p className="gitText">now</p>
+        <ul>JPMorgan Chase Software Engineering Virtual Experience</ul>
+
         <p className="gitText">Conference that I take part in</p>
         <ul>Lambda Days 13-14 FEBRUARY 2020 </ul>
         <p className="gitText">Workshops</p>

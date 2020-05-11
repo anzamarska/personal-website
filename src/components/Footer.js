@@ -1,84 +1,55 @@
 import React from "react";
 import "../styles/layouts/Footer.scss";
-
-// const Footer = () => (
-//   <>
-//     <p>there will be a footer</p>
-//   </>
-// );
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCoffee,
   faEnvelope,
   // faLinkedinSquare,
 } from "@fortawesome/free-solid-svg-icons";
-// import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <p className="footer_socials">
-        &copy;2020{" "}
+      <p className="footerText">
+        Are you interested in the code for my profile page? You can find it here
+      </p>
+      <a
+        aria-label="GitHub-portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/anzamarska/personal-web"
+      >
+        <img className="socialIcon" src="github.svg" alt="github" />
+      </a>
+      <br />{" "}
+      <div className="social">
+        <p className="footerText">&copy;2020 Anna Zamarska </p>
+
         <a
           aria-label="GitHub-portfolio"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/anzamarska"
         >
-          Anna Zamarska
-        </a>
-        {/* <FontAwesomeIcon icon={faLinkedinSquare} /> */}
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        <a
-          className="footer_social"
-          aria-label="GitHub"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/paulinastefanska"
-        >
-          {/* <FontAwesomeIcon icon={faGithub} /> */}
+          <img className="socialIcon" src="github.svg" alt="github" />
         </a>
         <a
-          className="footer_social"
           aria-label="LinkedIn"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/paulina-stefanska"
+          href="https://www.linkedin.com/in/anna-zamarska-25075714b/"
         >
-          {/* <FontAwesomeIcon icon={faLinkedin} /> */}
+          <img className="socialIcon" src="linkedin.svg" alt="linkedin" />
         </a>
         <a
-          className="footer_social footer_social--hidden"
-          aria-label="E-mail"
-          href="mailto:web.paulinastefanska@gmail.com"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/anna.zamarska/"
         >
-          <FontAwesomeIcon icon={faEnvelope} />
+          <img className="socialIcon" src="inst.svg" alt="instagram" />
         </a>
-      </p>
-      {/* 
-      <ul className="footer_menu">
-        <li>
-          <NavLink exact to="/about" className="footer_link">
-            O mnie
-          </NavLink>
-        </li>
-        <li>
-          <NavLink exact to="/skills" className="footer_link">
-            Umiejętności
-          </NavLink>
-        </li>
-        <li>
-          <NavLink exact to="/portfolio" className="footer_link">
-            Portfolio
-          </NavLink>
-        </li>
-        <li>
-          <NavLink exact to="/contact" className="footer_link">
-            Kontakt
-          </NavLink>
-        </li>
-      </ul> */}
+      </div>
     </footer>
   );
 };

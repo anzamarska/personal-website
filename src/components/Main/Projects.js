@@ -47,7 +47,7 @@ const Projects = (props) => (
           <img className="gitHubIcon" src="github.svg" alt="github" />
           <p className="gitText">demo</p>
           <div className="demoDiv">there will be screen of app</div>
-          <h6>CSS | HTML | JavaScript | React </h6>
+          <h6>CSS | HTML | JavaScript | React | TypeScript </h6>
         </div>
       </div>
     </section>
