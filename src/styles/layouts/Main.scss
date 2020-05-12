@@ -1,16 +1,11 @@
-.main {
-}
-
 .section {
   max-width: max-content;
-  // background-color: yellowgreen;
   margin: 0rem 8rem 0rem 5rem;
   position: relative;
 }
 
 .sectionTitle {
   display: inline-block;
-  // background-color: pink;
   width: 16em;
   position: relative;
   vertical-align: top;
@@ -22,12 +17,9 @@
 }
 .content {
   display: inline-block;
-  // background-color: darkcyan;
   width: 46em;
   position: relative;
   height: auto;
-  //   border-bottom: 1px solid black;
-  //   height: 100px;
 }
 
 .section {
@@ -85,7 +77,6 @@
 .gitHubIcon:hover {
   filter: brightness(1.1);
   scale: 1.1;
-  // box-shadow: 6px 7px 3px 0px #0000007a;
 }
 
 .gitText {
@@ -100,28 +91,3 @@
   height: 200px;
   margin: 0 auto;
 }
-// .content {
-//   position: relative;
-//   background-color: blue;
-// }
-
-//tutaj od góry to moje
-
-// .section {
-//     //   display: block;
-//     //   width: max-content;
-//     display: grid;
-//     grid-template-columns: repeat(3, 1fr);
-//     grid-gap: 10px;
-//     grid-auto-rows: minmax(100px, auto);
-//   }
-
-//   .sectionTitle {
-//     grid-column: 1;
-//     float: left;
-//     font-family: "Montserrat Subrayada", sans-serif;
-//   }
-
-//   .content {
-//     grid-column: 1/4;
-//   }
