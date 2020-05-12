@@ -7,7 +7,6 @@ const Contact = (props) => (
       <p className="sectionTitle">contact</p>
       <div className="content">
         <ul>E-mail: anzamarska@gmail.com</ul>
-        <ul>Mobile: 516 057 204 </ul>
       </div>
     </section>
   </>

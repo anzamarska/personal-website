@@ -6,7 +6,7 @@ const Skills = (props) => (
     <section className="section" id="skills">
       <p className="sectionTitle">skills</p>
       <div className="content">
-        <p className="gitText">CORE SKILLS </p>
+        <p className="gitText">SKILLS </p>
         <div className="skillsDiv">
           <div className="iconDiv">
             <img className="skillsIcon" src="html5.svg" alt="" />

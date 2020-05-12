@@ -18,7 +18,14 @@ const Projects = (props) => (
             on the internet we can find.
           </p>
           <p className="gitText">code</p>
-          <img className="gitHubIcon" src="github.svg" alt="github" />
+          <a
+            aria-label="GitHub-portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/anzamarska/wallpapers-app"
+          >
+            <img className="gitHubIcon" src="github.svg" alt="github" />
+          </a>
           <p className="gitText">demo</p>
           <div className="demoDiv">there will be screen of app</div>
           <h6>CSS (Sass) | HTML | JavaScript | React | API</h6>
@@ -31,7 +38,14 @@ const Projects = (props) => (
             will help you be above this problem!
           </p>
           <p className="gitText">code</p>
-          <img className="gitHubIcon" src="github.svg" alt="github" />
+          <a
+            aria-label="GitHub-portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/anzamarska/home-pantry"
+          >
+            <img className="gitHubIcon" src="github.svg" alt="github" />
+          </a>
           <p className="gitText">demo</p>
           <div className="demoDiv">there will be screen of app</div>
           <h6>CSS (Sass) | HTML | JavaScript | React </h6>
@@ -44,10 +58,19 @@ const Projects = (props) => (
             ability to work with Git Hub.
           </p>
           <p className="gitText">code</p>
-          <img className="gitHubIcon" src="github.svg" alt="github" />
+          <a
+            aria-label="GitHub-portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/jolawro/react-memory-game"
+          >
+            <img className="gitHubIcon" src="github.svg" alt="github" />
+          </a>
           <p className="gitText">demo</p>
           <div className="demoDiv">there will be screen of app</div>
-          <h6>CSS | HTML | JavaScript | React | TypeScript </h6>
+          <h6>
+            CSS | HTML | JavaScript | React (styled components) | TypeScript{" "}
+          </h6>
         </div>
       </div>
     </section>
