@@ -8,39 +8,39 @@ const Skills = (props) => (
       <div className="content">
         <div className="skillsDiv">
           <div className="iconDiv">
-            <img className="skillsIcon" src="html5.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/html5.svg" alt="" />
             <p className="gitText">html</p>
           </div>
           <div className="iconDiv">
-            <img className="skillsIcon" src="css3.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/css3.svg" alt="" />
             <p className="gitText">css</p>{" "}
           </div>
           <div className="iconDiv">
-            <img className="skillsIcon" src="sass.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/sass.svg" alt="" />
             <p className="gitText">sass</p>{" "}
           </div>
           <div className="iconDiv">
-            <img className="skillsIcon" src="js.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/js.svg" alt="" />
             <p className="gitText">java script</p>
           </div>
           <div className="iconDiv">
-            <img className="skillsIcon" src="react.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/react.svg" alt="" />
             <p className="gitText">react</p>
           </div>
           <div className="iconDiv">
-            <img className="skillsIcon" src="nodejs.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/nodejs.svg" alt="" />
             <p className="gitText">node.js</p>
           </div>
           <div className="iconDiv">
-            <img className="skillsIcon" src="npm.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/npm.svg" alt="" />
             <p className="gitText">npm</p>
           </div>
           <div className="iconDiv">
-            <img className="skillsIcon" src="slack.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/slack.svg" alt="" />
             <p className="gitText">slack</p>
           </div>
           <div className="iconDiv">
-            <img className="skillsIcon" src="git.svg" alt="" />
+            <img className="skillsIcon" src="skillsIcon/git.svg" alt="" />
             <p className="gitText">git</p>
           </div>
         </div>

@@ -47,7 +47,19 @@ const Projects = (props) => (
             <img className="gitHubIcon" src="github.svg" alt="github" />
           </a>
           <p className="gitText">demo</p>
-          <div className="demoDiv">there will be screen of app</div>
+
+          <a
+            aria-label="GitHub-portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/anzamarska/home-pantry"
+          >
+            <img className="gitHubIcon" src="github.svg" alt="github" />
+          </a>
+
+          <div className="demoDiv">
+            <img src="projectWallpapersImg.png" alt="" />
+          </div>
           <h6>CSS (Sass) | HTML | JavaScript | React </h6>
         </div>
         <div className="projectDiv">
