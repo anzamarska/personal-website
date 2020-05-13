@@ -27,7 +27,20 @@ const Projects = (props) => (
             <img className="gitHubIcon" src="github.svg" alt="github" />
           </a>
           <p className="gitText">demo</p>
-          <div className="demoDiv">there will be screen of app</div>
+          <div className="demoDiv">
+            <a
+              aria-label="GitHub-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/anzamarska/wallpapers-app"
+            >
+              <img
+                className="projectImg"
+                src="demoProjectImg/projectWallpapersImg.png"
+                alt=""
+              />
+            </a>
+          </div>
           <h6>CSS (Sass) | HTML | JavaScript | React | API</h6>
         </div>
         <div className="projectDiv">
@@ -47,18 +60,19 @@ const Projects = (props) => (
             <img className="gitHubIcon" src="github.svg" alt="github" />
           </a>
           <p className="gitText">demo</p>
-
-          <a
-            aria-label="GitHub-portfolio"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/anzamarska/home-pantry"
-          >
-            <img className="gitHubIcon" src="github.svg" alt="github" />
-          </a>
-
           <div className="demoDiv">
-            <img src="projectWallpapersImg.png" alt="" />
+            <a
+              aria-label="GitHub-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/anzamarska/home-pantry"
+            >
+              <img
+                className="projectImg"
+                src="demoProjectImg/projectPantryImg.png"
+                alt=""
+              />
+            </a>
           </div>
           <h6>CSS (Sass) | HTML | JavaScript | React </h6>
         </div>
@@ -79,7 +93,20 @@ const Projects = (props) => (
             <img className="gitHubIcon" src="github.svg" alt="github" />
           </a>
           <p className="gitText">demo</p>
-          <div className="demoDiv">there will be screen of app</div>
+          <div className="demoDiv">
+            <a
+              aria-label="GitHub-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/jolawro/react-memory-game"
+            >
+              <img
+                className="projectImg"
+                src="demoProjectImg/projectMemoryImg.png"
+                alt=""
+              />
+            </a>
+          </div>
           <h6>
             CSS | HTML | JavaScript | React (styled components) | TypeScript{" "}
           </h6>
