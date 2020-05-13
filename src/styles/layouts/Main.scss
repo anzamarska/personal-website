@@ -68,6 +68,12 @@
   height: 4rem;
 }
 
+.skillsDiv::after {
+  content: "";
+  display: block;
+  height: 5rem;
+}
+
 .languages {
   list-style: disclosure-closed;
   list-style-position: inside;
@@ -98,10 +104,6 @@
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  // overflow: hidden;
-  // background-size: cover;
-  // background-position: center;
-  // background-image: src("../../../public/projectWallpapersImg.png");
 }
 
 .projectImg {
@@ -115,4 +117,10 @@
   filter: brightness(1.1);
   scale: 1.1;
   box-shadow: 6px 7px 3px 0px #0000007a;
+}
+
+ul::after {
+  content: "";
+  display: block;
+  height: 3rem;
 }

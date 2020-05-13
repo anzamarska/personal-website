@@ -44,18 +44,19 @@ const Skills = (props) => (
             <p className="gitText">git</p>
           </div>
         </div>
-        <ul>Basic knowledge of Python and R</ul>
-        <ul>Knowledge of IBM SPSS and STATISTICA </ul>
-        <ul>Critical thinking and complex problem-solving skills</ul>
-        <ul>Extensive active listening and communication skills </ul>
         <div className="skillsDiv">
-          <p className="gitText">Languages</p>
-          <ol className="languages">
-            <li>English C1 </li>
-            <li>German B1 </li>
-            <li>Polish native</li>
-          </ol>
+          <li>Basic knowledge of Python and R</li>
+          <li>Knowledge of IBM SPSS and STATISTICA </li>
+          <li>Critical thinking and complex problem-solving skills</li>
+          <li>Extensive active listening and communication skills </li>
         </div>
+
+        <p className="gitText">Languages</p>
+        <ol className="languages">
+          <li>English C1 </li>
+          <li>German B1 </li>
+          <li>Polish native</li>
+        </ol>
       </div>
     </section>
   </>
