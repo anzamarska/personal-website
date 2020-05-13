@@ -1,4 +1,22 @@
+# Personal Website - my curriculum vitae
+
+## General info
+
+This project was written using Reacta. It is presenting my curriculum vitae.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Technologies
+
+Project is created with:
+*CSS5 (Sass)
+*HTML5
+*JavaScript
+*React
+
+## Deploying / Publishing
+
+https://hopeful-heisenberg-d455cd.netlify.app/
 
 ## Available Scripts
 
