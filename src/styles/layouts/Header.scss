@@ -1,12 +1,37 @@
 @import "../global.scss";
 
+@keyframes moveToTop {
+  0% {
+    margin-top: 40vh;
+  }
+  30% {
+    margin-top: 40vh;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes shadowChanges {
+  0% {
+    box-shadow: none;
+  }
+  35% {
+    box-shadow: 0 3px 10px rgba(9, 9, 9, 0.86);
+  }
+  100% {
+    box-shadow: 0 3px 10px rgba(214, 214, 214, 0.25);
+  }
+}
+
 .header {
+  animation: moveToTop 4s ease, shadowChanges 4s ease;
+  animation-fill-mode: forwards;
   padding: 0 2vw;
   position: fixed;
   box-sizing: border-box;
   width: 100vw;
   background-color: white;
-  box-shadow: 0 3px 10px rgba(214, 214, 214, 0.25);
   z-index: 999;
 }
 
@@ -19,6 +44,7 @@
   letter-spacing: 9.75px;
   font-size: 13px;
   height: 12vh;
+  outline: none;
 }
 
 button:hover {

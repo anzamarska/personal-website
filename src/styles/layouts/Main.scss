@@ -1,3 +1,21 @@
+@keyframes appearDiv {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main {
+  animation: appearDiv 6s ease;
+  padding-top: 4vh;
+  padding-right: 10vh;
+}
+
 .section {
   max-width: max-content;
   margin: 0rem auto;
@@ -12,10 +30,6 @@
   font-family: "Montserrat Subrayada", sans-serif;
 }
 
-.main {
-  padding-top: 4vh;
-  padding-right: 10vh;
-}
 .content {
   display: inline-block;
   width: 46em;
