@@ -7,39 +7,29 @@ const Courses = (props) => (
       <p className="sectionTitle">courses</p>
       <div className="content">
         <p className="gitText">ACADEMIC EDUCATION</p>
-        <ul>
-          <li>
-            Jagiellonian University in Cracov Faculty of Philosophy, Masters of
-            Science in Clinical Psychology - Graduated in 2019
-          </li>
-        </ul>
+        <p className="coursesText">
+          Jagiellonian University in Cracov Faculty of Philosophy, Masters of
+          Science in Clinical Psychology - Graduated in 2019
+        </p>
         <p className="gitText">now</p>
-        <ul>
-          <li>
-            I am a trainee participant - Morgan Chase Software Engineering
-            Virtual Experience
-          </li>
-        </ul>
+        <p className="coursesText">
+          I am a trainee participant - Morgan Chase Software Engineering Virtual
+          Experience
+        </p>
         <p className="gitText">Conference that I take part in</p>
-        <ul>
-          <li>Lambda Days 13-14 FEBRUARY 2020 </li>
-        </ul>
+        <p className="coursesText">Lambda Days 13-14 FEBRUARY 2020 </p>
         <p className="gitText">Workshops</p>
-        <ul>
-          <li>Workshops on frontend programming Codecool 20 FEBRUARY 2020</li>
-          <li>
-            Froncik - basics of creating pages in HTML and CSS 13 FEBRUARY 2020
-          </li>
-          <li>An Ounce of Elixir 12 FEBRUARY 2020</li>
-        </ul>
+        <p>Workshops on frontend programming Codecool 20 FEBRUARY 2020</p>
+        <p>
+          Froncik - basics of creating pages in HTML and CSS 13 FEBRUARY 2020
+        </p>
+        <p className="coursesText">An Ounce of Epxir 12 FEBRUARY 2020</p>
         <p className="gitText">courses</p>
-        <ul>
-          <li>React Challenge in 10 days 1 - 16 APRIL 2020</li>
-          <li>
-            freecodecamp: Responsive Web Design Certification 12 JANUARY - 5
-            FEBRUARY 2020
-          </li>
-        </ul>
+        <p>React Challenge in 10 days 1 - 16 APRIL 2020</p>
+        <p className="coursesText">
+          freecodecamp: Responsive Web Design Certification 12 JANUARY - 5
+          FEBRUARY 2020
+        </p>
       </div>
     </section>
   </>

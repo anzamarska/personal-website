@@ -32,7 +32,7 @@ const Projects = (props) => (
               aria-label="GitHub-portfolio"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/anzamarska/wallpapers-app"
+              href="https://confident-northcutt-f340ff.netlify.app/"
             >
               <img
                 className="projectImg"
@@ -45,11 +45,13 @@ const Projects = (props) => (
         </div>
         <div className="projectDiv">
           <h3 className="contentTitle">Home Pantry</h3>
+
           <p>
             Have you had situations where, while shopping, you didn't know how
             much stuff you have at home, and how much should you buy? This app
             will help you be above this problem!
           </p>
+          {/* <br /> */}
           <p className="gitText">code</p>
           <a
             aria-label="GitHub-portfolio"
@@ -65,7 +67,7 @@ const Projects = (props) => (
               aria-label="GitHub-portfolio"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/anzamarska/home-pantry"
+              href="https://tender-wilson-cfe0ac.netlify.app/"
             >
               <img
                 className="projectImg"

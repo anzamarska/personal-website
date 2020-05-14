@@ -50,13 +50,10 @@ const Skills = (props) => (
           <li>Critical thinking and complex problem-solving skills</li>
           <li>Extensive active listening and communication skills </li>
         </div>
-
         <p className="gitText">Languages</p>
-        <ol className="languages">
-          <li>English C1 </li>
-          <li>German B1 </li>
-          <li>Polish native</li>
-        </ol>
+        <p>English C1 </p>
+        <p>German B1 </p>
+        <p>Polish native</p>
       </div>
     </section>
   </>
