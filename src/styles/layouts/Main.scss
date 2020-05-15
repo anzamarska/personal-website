@@ -1,3 +1,5 @@
+@import "../global.scss";
+
 @keyframes appearDiv {
   0% {
     opacity: 0;
@@ -11,9 +13,13 @@
 }
 
 .main {
-  animation: appearDiv 6s ease;
+  // animation: appearDiv 6s ease;
   padding-top: 4vh;
   padding-right: 10vh;
+  background-color: greenyellow;
+  @include media("<=phone") {
+    background-color: hotpink;
+  }
 }
 
 .section {
@@ -35,6 +41,9 @@
   width: 46em;
   position: relative;
   height: auto;
+  @include media("<=phone") {
+    width: 100vw;
+  }
 }
 
 .section {
@@ -60,13 +69,14 @@
 
 .aboutText {
   display: inline-block;
-  width: 25rem;
+  // width: 25rem;
   padding: 0 5rem 1rem 0;
 }
 
 .profileImg {
   display: inline-block;
   width: 16rem;
+  box-shadow: 0 3px 10px #6a6969;
 }
 
 .projectDiv {
