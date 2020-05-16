@@ -6,15 +6,15 @@ import Bounce from "react-reveal/Bounce";
 const Header = (props) => (
   <>
     <div className="header">
+      <button
+        className="hamburger"
+        onClick={() => props.changeHamburgerClass()}
+      >
+        <span className="hamburger-box">
+          <span className="hamburger-inner"></span>
+        </span>
+      </button>
       <div className="navigation">
-        <button
-          className="hamburger"
-          onClick={() => props.changeHamburgerClass()}
-        >
-          <span className="hamburger-box">
-            <span className="hamburger-inner"></span>
-          </span>
-        </button>
         <Bounce left>
           <button className="button" onClick={props.scrollingViewContact}>
             contact
