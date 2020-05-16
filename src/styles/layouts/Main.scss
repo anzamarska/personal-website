@@ -13,22 +13,28 @@
 }
 
 .main {
-  // animation: appearDiv 6s ease;
-  padding-top: 4vh;
-  padding-right: 10vh;
-  background-color: greenyellow;
   @include media("<=phone") {
-    background-color: hotpink;
+    padding-top: 0;
   }
+  animation: appearDiv 6s ease;
+  padding-top: 20vh;
+  // padding-right: 10vh;
 }
 
 .section {
+  @include media("<=phone") {
+    padding-top: 8vh;
+  }
   max-width: max-content;
   margin: 0rem auto;
   position: relative;
+  padding-top: 4vh;
 }
 
 .sectionTitle {
+  @include media("<=phone") {
+    width: 100vw;
+  }
   display: inline-block;
   width: 16em;
   position: relative;
@@ -37,20 +43,19 @@
 }
 
 .content {
+  @include media("<=phone") {
+    width: 80vw;
+  }
   display: inline-block;
   width: 46em;
   position: relative;
   height: auto;
-  @include media("<=phone") {
-    width: 100vw;
-  }
-}
-
-.section {
-  padding-top: 12vh;
 }
 
 .content::after {
+  @include media("<=phone") {
+    width: 28vw;
+  }
   content: "";
   display: block;
   padding-top: 14px;
@@ -62,24 +67,37 @@
 }
 
 .contentTitle {
+  @include media("<=phone") {
+    margin-top: 0.8rem;
+  }
   font-family: "Cardo", serif;
   font-size: 1.8rem;
   font-weight: lighter;
 }
 
 .aboutText {
+  @include media("<=phone") {
+    padding: 0;
+    width: 80vw;
+  }
   display: inline-block;
-  // width: 25rem;
+  width: 25rem;
   padding: 0 5rem 1rem 0;
 }
 
 .profileImg {
+  @include media("<=phone") {
+    margin-bottom: 20px;
+  }
   display: inline-block;
   width: 16rem;
   box-shadow: 0 3px 10px #6a6969;
 }
 
 .projectDiv {
+  @include media("<=phone") {
+    margin: 10px auto;
+  }
   display: inline-block;
   min-height: 100px;
   width: 16rem;
@@ -90,25 +108,42 @@
 }
 
 .skillsIcon {
+  @include media("<=phone") {
+    height: 3.8rem;
+  }
   height: 4rem;
 }
 
+div.skillsDiv:nth-child(2) {
+  @include media("<=phone") {
+    margin: 0 auto;
+    width: 75vw;
+  }
+}
+
 .skillsDiv::after {
+  @include media("<=phone") {
+    height: 2.5rem;
+  }
   content: "";
   display: block;
   height: 5rem;
 }
 
 .iconDiv {
+  @include media("<=phone") {
+    height: 0;
+    margin: 1rem;
+  }
   display: inline-block;
   margin: 2rem;
   height: 2rem;
 }
 
-.coursesText {
+.coursesText::after {
   content: "";
   display: block;
-  height: 5rem;
+  height: 3.5rem;
 }
 
 .gitHubIcon {
@@ -121,6 +156,10 @@
 }
 
 .gitText {
+  @include media("<=phone") {
+    letter-spacing: 6.75px;
+    font-size: 12px;
+  }
   letter-spacing: 9.75px;
   font-size: 13px;
   text-transform: uppercase;

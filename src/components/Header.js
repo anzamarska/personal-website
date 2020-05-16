@@ -8,7 +8,7 @@ const Header = (props) => (
     <div className="header">
       <button
         className="hamburger"
-        onClick={() => props.changeHamburgerClass()}
+        onClick={() => props.changeHamburgerNavClass()}
       >
         <span className="hamburger-box">
           <span className="hamburger-inner"></span>
@@ -16,28 +16,58 @@ const Header = (props) => (
       </button>
       <div className="navigation">
         <Bounce left>
-          <button className="button" onClick={props.scrollingViewContact}>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewContact();
+            }}
+          >
             contact
           </button>
         </Bounce>
 
         <Roll left>
-          <button className="button" onClick={props.scrollingViewProjects}>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewProjects();
+            }}
+          >
             projects
           </button>
         </Roll>
         <Bounce bottom>
-          <button className="button" onClick={props.scrollingViewCourses}>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewCourses();
+            }}
+          >
             courses/events
           </button>
         </Bounce>
         <Bounce right>
-          <button className="button" onClick={props.scrollingViewSkills}>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewSkills();
+            }}
+          >
             skills
           </button>
         </Bounce>
         <Roll bottom>
-          <button className="button" onClick={props.scrollingViewAbout}>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewAbout();
+            }}
+          >
             about
           </button>
         </Roll>

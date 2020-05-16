@@ -6,7 +6,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 class App extends React.Component {
-  changeHamburgerClass = () => {
+  changeHamburgerNavClass = () => {
     const hamburger = document.querySelector(".hamburger");
     const nav = document.querySelector(".navigation");
     hamburger.classList.toggle("hamburger--active");
@@ -42,7 +42,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header
-          changeHamburgerClass={this.changeHamburgerClass}
+          changeHamburgerNavClass={this.changeHamburgerNavClass}
           scrollingViewAbout={this.scrollingViewAbout}
           scrollingViewContact={this.scrollingViewContact}
           scrollingViewCourses={this.scrollingViewCourses}

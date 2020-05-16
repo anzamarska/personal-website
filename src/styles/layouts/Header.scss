@@ -25,7 +25,7 @@
 }
 
 .header {
-  // animation: moveToTop 4s ease, shadowChanges 4s ease;
+  animation: moveToTop 4s ease, shadowChanges 4s ease;
   animation-fill-mode: forwards;
   position: fixed;
   box-sizing: border-box;
@@ -39,10 +39,10 @@
     height: 6vh;
     width: 100vw;
   }
-  float: right;
+  float: left;
   border: none;
-  background-color: transparent;
-  margin: 0px 0.8vw;
+  background-color: white;
+  // margin: 0px 0.8vw;
   text-transform: uppercase;
   letter-spacing: 9.75px;
   font-size: 13px;
@@ -55,15 +55,16 @@ button:hover {
 }
 
 .hamburger {
-  // @include media("<=phone") {
-  display: flex;
-  float: right;
-  cursor: pointer;
-  // background-color: transparent;
-  padding: 10px;
-  border: 0;
-  margin: 0;
-  // }
+  display: none;
+  @include media("<=phone") {
+    display: flex;
+    float: right;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px;
+    border: 0;
+    margin: 0;
+  }
 }
 
 .hamburger,
@@ -127,13 +128,14 @@ button:hover {
 }
 
 .navigation {
-  height: 30vh;
-  background-color: green;
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateY(-30vh);
+  @include media("<=phone") {
+    height: 30vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-30vh);
+  }
 }
 
 .navigation--active {

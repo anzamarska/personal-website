@@ -6,7 +6,7 @@ const Contact = (props) => (
     <section className="section" id="contact">
       <p className="sectionTitle">contact</p>
       <div className="content">
-        <ul>E-mail: anzamarska@gmail.com</ul>
+        <p>E-mail: anzamarska@gmail.com</p>
       </div>
     </section>
   </>
