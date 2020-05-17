@@ -15,51 +15,6 @@ const Header = (props) => (
         </span>
       </button>
       <div className="navigation">
-        <Bounce left>
-          <button
-            className="button"
-            onClick={() => {
-              props.changeHamburgerNavClass();
-              props.scrollingViewContact();
-            }}
-          >
-            contact
-          </button>
-        </Bounce>
-
-        <Roll left>
-          <button
-            className="button"
-            onClick={() => {
-              props.changeHamburgerNavClass();
-              props.scrollingViewProjects();
-            }}
-          >
-            projects
-          </button>
-        </Roll>
-        <Bounce bottom>
-          <button
-            className="button"
-            onClick={() => {
-              props.changeHamburgerNavClass();
-              props.scrollingViewCourses();
-            }}
-          >
-            courses/events
-          </button>
-        </Bounce>
-        <Bounce right>
-          <button
-            className="button"
-            onClick={() => {
-              props.changeHamburgerNavClass();
-              props.scrollingViewSkills();
-            }}
-          >
-            skills
-          </button>
-        </Bounce>
         <Roll bottom>
           <button
             className="button"
@@ -71,6 +26,50 @@ const Header = (props) => (
             about
           </button>
         </Roll>
+        <Bounce right>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewSkills();
+            }}
+          >
+            skills
+          </button>
+        </Bounce>
+        <Bounce bottom>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewCourses();
+            }}
+          >
+            courses/events
+          </button>
+        </Bounce>
+        <Roll left>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewProjects();
+            }}
+          >
+            projects
+          </button>
+        </Roll>
+        <Bounce left>
+          <button
+            className="button"
+            onClick={() => {
+              props.changeHamburgerNavClass();
+              props.scrollingViewContact();
+            }}
+          >
+            contact
+          </button>
+        </Bounce>
       </div>
     </div>
   </>

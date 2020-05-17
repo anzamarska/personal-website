@@ -16,7 +16,7 @@ const Courses = (props) => (
           I am a trainee participant - Morgan Chase Software Engineering Virtual
           Experience
         </p>
-        <p className="gitText">Conference that I take part in</p>
+        <p className="gitText">Conference that I took part in</p>
         <p className="coursesText">Lambda Days 13-14 FEBRUARY 2020 </p>
         <p className="gitText">Workshops</p>
         <p>Workshops on frontend programming Codecool 20 FEBRUARY 2020</p>

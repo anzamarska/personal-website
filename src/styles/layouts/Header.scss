@@ -38,11 +38,12 @@
   @include media("<=phone") {
     height: 6vh;
     width: 100vw;
+    background-color: white;
   }
   float: left;
   border: none;
-  background-color: white;
-  // margin: 0px 0.8vw;
+  background-color: transparent;
+  margin: 0 1.8vw 0 0;
   text-transform: uppercase;
   letter-spacing: 9.75px;
   font-size: 13px;
@@ -128,6 +129,7 @@ button:hover {
 }
 
 .navigation {
+  float: right;
   @include media("<=phone") {
     height: 30vh;
     width: 100vw;
