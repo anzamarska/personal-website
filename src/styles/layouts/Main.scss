@@ -17,8 +17,7 @@
     padding-top: 0;
   }
   animation: appearDiv 6s ease;
-  padding-top: 20vh;
-  // padding-right: 10vh;
+  padding-top: 0;
 }
 
 .section {
@@ -28,7 +27,7 @@
   max-width: max-content;
   margin: 0rem auto;
   position: relative;
-  padding-top: 4vh;
+  padding-top: 14vh;
 }
 
 .sectionTitle {
@@ -39,7 +38,7 @@
   width: 16em;
   position: relative;
   vertical-align: top;
-  font-family: "Montserrat Subrayada", sans-serif;
+  font-family: $font-titles;
 }
 
 .content {
@@ -63,14 +62,13 @@
   margin: 0 auto;
   margin-bottom: 0px;
   border-bottom: 1px solid black;
-  margin-bottom: 28px;
 }
 
 .contentTitle {
   @include media("<=phone") {
     margin-top: 0.8rem;
   }
-  font-family: "Cardo", serif;
+  font-family: $font-capital-text;
   font-size: 1.8rem;
   font-weight: lighter;
 }
@@ -166,7 +164,7 @@ div.skillsDiv:nth-child(2) {
 }
 
 .demoDiv {
-  background-color: grey;
+  background-color: $color-div-background;
   width: 200px;
   height: 200px;
   margin: 0 auto;

@@ -15,6 +15,9 @@ const Footer = () => {
       >
         <img className="socialIcon" src="github.svg" alt="github" />
       </a>
+      <p className="footerMobileText">
+        check this page also in the mobile version
+      </p>
       <br />{" "}
       <div className="social">
         <p className="footerText">&copy;2020 Anna Zamarska </p>
