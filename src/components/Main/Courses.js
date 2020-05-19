@@ -23,8 +23,13 @@ const Courses = (props) => (
         <p>
           Froncik - basics of creating pages in HTML and CSS 13 FEBRUARY 2020
         </p>
-        <p className="coursesText">An Ounce of Epxir 12 FEBRUARY 2020</p>
+        <p className="coursesText">An Ounce of Elixir 12 FEBRUARY 2020</p>
         <p className="gitText">courses</p>
+        <p>
+          udemy: 'JavaScript + ES6 + ES7 + ES8 + ES9 -> The Complete Guide' - in
+          progress
+        </p>
+        <p>datacamp: Introduction to Git APRIL 2020</p>
         <p>React Challenge in 10 days 1 - 16 APRIL 2020</p>
         <p className="coursesText">
           freecodecamp: Responsive Web Design Certification 12 JANUARY - 5

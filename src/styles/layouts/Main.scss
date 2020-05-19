@@ -188,3 +188,21 @@ ul::after {
   display: block;
   height: 3rem;
 }
+
+.textCV {
+  display: inline-block;
+  height: 3rem;
+  vertical-align: text-bottom;
+  margin: 0;
+}
+
+.iconCV {
+  height: 4rem;
+  margin: 0 1rem;
+  transition: 200ms;
+}
+
+.iconCV:hover {
+  filter: brightness(1.1);
+  scale: 1.1;
+}
