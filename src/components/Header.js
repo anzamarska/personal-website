@@ -23,7 +23,7 @@ const Header = (props) => (
               props.scrollingViewAbout();
             }}
           >
-            about
+            about me
           </button>
         </Roll>
         <Bounce right>
