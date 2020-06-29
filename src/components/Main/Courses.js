@@ -6,15 +6,19 @@ const Courses = (props) => (
     <section className="section" id="courses">
       <p className="sectionTitle">courses</p>
       <div className="content">
+        <p className="gitText">experience</p>
+        <p className="coursesText">
+          Junior / Regular Front-End Developer - ATMOSFERA Media <br /> JUNE to
+          now
+        </p>
+        <p className="coursesText">
+          trainee participant - Morgan Chase Software Engineering Virtual
+          Experience <br /> MAY - JUNE
+        </p>
         <p className="gitText">ACADEMIC EDUCATION</p>
         <p className="coursesText">
           Jagiellonian University in Cracov Faculty of Philosophy, Masters of
           Science in Clinical Psychology - Graduated in 2019
-        </p>
-        <p className="gitText">now</p>
-        <p className="coursesText">
-          I am a trainee participant - Morgan Chase Software Engineering Virtual
-          Experience
         </p>
         <p className="gitText">Conference that I took part in</p>
         <p className="coursesText">Lambda Days 13-14 FEBRUARY 2020 </p>
