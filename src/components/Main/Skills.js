@@ -35,10 +35,10 @@ const Skills = (props) => (
             <img className="skillsIcon" src="skillsIcon/npm.svg" alt="" />
             <p className="gitText">npm</p>
           </div>
-          <div className="iconDiv">
+          {/* <div className="iconDiv">
             <img className="skillsIcon" src="skillsIcon/slack.svg" alt="" />
             <p className="gitText">slack</p>
-          </div>
+          </div> */}
           <div className="iconDiv">
             <img className="skillsIcon" src="skillsIcon/git.svg" alt="" />
             <p className="gitText">git</p>
