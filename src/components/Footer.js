@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p className="footerText">
-        Are you interested in the code for my profile page? You can find it here
+        Are you interested in the code for my profile page? You can find it
+        here:
       </p>
       <a
         aria-label="GitHub-portfolio"
@@ -13,6 +14,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         href="https://github.com/anzamarska/personal-web"
       >
+        <p className="footerText"> GITHUB</p>
         <img className="socialIcon" src="github.svg" alt="github" />
       </a>
       <p className="footerMobileText">
