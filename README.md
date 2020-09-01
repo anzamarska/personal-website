@@ -16,7 +16,7 @@ Project is created with:
 
 ## Deploying / Publishing
 
-https://hopeful-heisenberg-d455cd.netlify.app/
+https://zamarska.netlify.app/
 
 ## Available Scripts
 

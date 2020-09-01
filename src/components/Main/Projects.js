@@ -32,7 +32,7 @@ const Projects = (props) => (
               aria-label="GitHub-portfolio"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://confident-northcutt-f340ff.netlify.app/"
+              href="https://wallpapers-finder.netlify.app/"
             >
               <img
                 className="projectImg"
@@ -67,7 +67,7 @@ const Projects = (props) => (
               aria-label="GitHub-portfolio"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://tender-wilson-cfe0ac.netlify.app/"
+              href="https://homepantry.netlify.app/"
             >
               <img
                 className="projectImg"
@@ -100,7 +100,7 @@ const Projects = (props) => (
               aria-label="GitHub-portfolio"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/jolawro/react-memory-game"
+              href="https://awesome-memory-game.netlify.app/"
             >
               <img
                 className="projectImg"
